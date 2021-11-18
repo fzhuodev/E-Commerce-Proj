@@ -1,0 +1,101 @@
+
+.form{
+    border:2px solid rgb(27, 23, 23);
+    height:500px;
+    position: relative;
+    top:150px;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+ 
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+.heading{
+display:flex;
+align-items: center;
+justify-content: center;
+margin-top: 10%;
+}
+
+.usernameText {
+    margin-left: 20px;
+    color: rgb(92, 85, 85);
+}
+
+
+
+.userEmail{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+    margin-bottom:40px;
+
+}
+
+.userEmail input{
+    height: 40px;
+    width:90%;
+    
+}
+
+.passwordText{
+    margin-left: 20px;
+    color: rgb(92, 85, 85);
+}
+
+.password{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+
+}
+
+.password input{
+    height: 40px;
+    width:90%;
+    
+    
+}
+
+.password button{
+    position: absolute;
+    color:rgb(108, 108, 138);
+    background-color: white; 
+    cursor:pointer;
+    border: none;
+    padding: 0%;
+    right:30px;
+    text-decoration: underline;
+}
+.btn{
+    height: 45px;
+    width:94%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(84, 84, 194);
+    color: white;
+    margin:auto;
+    margin-bottom: 40px;
+
+}
+
+.switchform{
+    margin-left: 20px;
+    color: gray;
+    
+}
